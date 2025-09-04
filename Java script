@@ -1,0 +1,48 @@
+JavaScript
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Air Quality Monitoring System</title>
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #f4f4f4;
+      text-align: center;
+      padding: 50px;
+    }
+    .card {
+      background-color: #fff;
+      padding: 20px;
+      margin: 15px auto;
+      border-radius: 10px;
+      width: 300px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    .value {
+      font-size: 2em;
+      color: #007BFF;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Air Quality Monitoring</h1>
+
+  <div class="card">
+    <h2>PM2.5</h2>
+    <div class="value" id="pm25">-- µg/m³</div>
+  </div>
+
+  <div class="card">
+    <h2>CO₂</h2>
+    <div class="value" id="co2">-- ppm</div>
+  </div>
+
+  <div class="card">
+    <h2>AQI</h2>
+    <div class="value" id="aqi">--</div>
+  </div>
+
+  <script>
